@@ -160,3 +160,23 @@ footer img.illustration {
 footer img.logo {
     opacity: .4;
 }
+
+footer h5 {
+    font-weight: 700;
+    color: rgba(255, 255, 255, .4);
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: rgba(255, 255, 255, .4);
+    text-decoration: none;
+    transition: .3s;
+}
+
+footer ul li a:hover {
+    color: white;
+}
