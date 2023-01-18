@@ -132,3 +132,31 @@ section.map p {
     border-radius: 10px;
     z-index: 1;
 }
+
+footer {
+    background-color: #040d22;
+    position: relative;
+    margin-top: 20%;
+}
+
+footer .curve {
+    transform: scale(1, -1);
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+footer .container {
+
+}
+
+footer img.illustration {
+    width: 100%;
+    margin-top: -33%;
+    margin-bottom: 50px;
+    transform: scale(-1, 1);
+}
+
+footer img.logo {
+    opacity: .4;
+}
