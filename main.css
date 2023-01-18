@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #040d22;
+    position: relative;
 }
 
 header .forms input.form-control {
@@ -19,11 +19,14 @@ header .forms input.form-control::placeholder {
 
 section.hero {
     background-color: #040d22;
+    position: relative;
+    overflow: hidden;
 }
 
 section.hero .container {
     padding-top: 160px;
     padding-bottom: 160px;
+    position: relative;
 }
 
 section.hero .headline h1 {
@@ -34,4 +37,20 @@ section.hero .headline h1 {
 
 section.hero .headline p {
     font-size: 26px;
+}
+
+section.hero img.globe {
+    width: 900px;
+    position: absolute;
+    top: -5%;
+    left: 46%;
+}
+
+section.hero img.glow {
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
