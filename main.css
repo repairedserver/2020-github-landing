@@ -56,5 +56,7 @@ section.hero img.glow {
 }
 
 section.hero .curve {
-    
+    position: absolute;
+    bottom: -1px;
+    left: 0;
 }
