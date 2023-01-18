@@ -60,3 +60,26 @@ section.hero .curve {
     bottom: -1px;
     left: 0;
 }
+
+section.youtube {
+
+}
+
+section.youtube .container {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+section.youtube img.astronaut {
+    width: 480px;
+    position: absolute;
+    top: -420px;
+    right: 0;
+}
+
+section.youtube .ratio {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: black;
+}
