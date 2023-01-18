@@ -126,5 +126,9 @@ section.map p {
 }
 
 #map {
-    
+    background-color: black;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    z-index: 1;
 }
