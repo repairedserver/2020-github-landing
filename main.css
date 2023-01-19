@@ -21,9 +21,25 @@ header [data-bs-toggle="offcanvas"] {
     display: none;
 }
 
+header .offcanvas .list-group-item {
+    padding: 16px;
+}
+
+header .offcanvas .list-group-item a {
+    color: black;
+    text-decoration: none;
+}
+
+header .offcanvas .list-group-item a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 992px) {
-    header .nav
-    header .forms input.form-control
+    header .logo {
+        flex-grow: 1;
+    }
+    header .nav,
+    header .forms input.form-control,
     header .forms .btn-link {
         display: none;
     }
