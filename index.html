@@ -69,9 +69,39 @@
                     <button class="btn btn-link text-light flex-shrink-0 me-2 text-decoration-none">Sign in</button>
                     <button class="btn btn-outline-light flex-shrink-0">Sign up</button>
                 </div>
-                <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                <button class="btn ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
                     <img src="./images/menu.svg" alt="Menu">
                 </button>
+                <div class="offcanvas offcanvas-end" id="offcanvas">
+                    <div class="offcanvas-header">
+                        <button class="btn-close" data-bs-dismiss="offcanvas">
+
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item">
+                                <a href="#">Personal</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Open Source</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Business</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Explore</a>
+                            </li>
+                        </ul>
+                        <input type="text" class="form-control mb-2" placeholder="Search GitHub">
+                        <div class="d-grid mb-2">
+                            <button class="btn btn-outline-primary">Sign in</button>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary">Sign up</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
 
