@@ -115,6 +115,12 @@ section.youtube .ratio {
     background-color: black;
 }
 
+@media (max-width: 768px) {
+    section.youtube img.astronaut {
+        display: none;
+    }
+}
+
 section.features {
 
 }
@@ -135,6 +141,12 @@ section.features .card img {
     padding-left: 60px;
     padding-right: 60px;
     padding: 30px 60px;
+}
+
+@media (max-width: 576px) {
+    section.features .card img {
+        padding: 20px 30px;
+    }
 }
 
 section.map {
@@ -219,6 +231,7 @@ footer .site-links {
     background-color: rgba(255, 255, 255, .05);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer .site-links li {
@@ -229,4 +242,13 @@ footer .site-links li {
 
 footer .site-links li:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 992px) {
+    footer {
+        text-align: center;
+    }
+    footer img.logo {
+        margin-bottom: 50px;
+    }
 }
