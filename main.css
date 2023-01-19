@@ -17,6 +17,21 @@ header .forms input.form-control::placeholder {
     color: rgba(255, 255, 255, .6);
 }
 
+header [data-bs-toggle="offcanvas"] {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    header .nav
+    header .forms input.form-control
+    header .forms .btn-link {
+        display: none;
+    }
+    header [data-bs-toggle="offcanvas"] {
+        display: block;
+    }
+}
+
 section.hero {
     background-color: #040d22;
     position: relative;
